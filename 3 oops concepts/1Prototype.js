@@ -36,4 +36,4 @@ console.log('tesla has ', tesla.tyres);
 // #3
 console.log("tesla has (logging through the Object.getPrototypeof)" , Object.getPrototypeOf(tesla) );
 
-tesla.hasown('tyres');
+tesla.hasownproperty('tyres');
