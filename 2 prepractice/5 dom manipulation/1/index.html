@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #1a1a1a;
+            color: aliceblue;
+        }
+
+        /* h1{
+            color:yellow;
+        } */
+
+        .yellow{
+            color : yellow;
+        }
+        .love{
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <button class="btn1">Turn your h1 color yellow</button>
+
+    <ul class="food-items">
+        <li>Potatoes</li>
+        <li>Tomatoes</li>
+        <li>Brinjal</li>
+        <li>Lady Finger</li>
+        <li>Cabbage</li>
+    </ul>
+
+    <button class="addElement">Add Food Items</button>
+    <button class="removeElement">Remove Food Items</button>
+    
+
+
+    <!-- event delegation -->
+
+    <ul class="Home-items">
+        <li>Toothpaste</li>
+        <li>Brushes</li>
+        <li>Soapes</li>
+        <li>Biscuits</li>
+        <li>Maggie</li>
+    </ul>
+
+    <!-- event delegation 
+     we want to console the only items which has the same class -->
+    
+     <ul class="Toilet-items">
+        <li class="Toilet-item">Toothpaste</li>
+        <li class="Toilet-item">Brushes</li>
+        <li class="Toilet-item">Soapes</li>
+        <li>Biscuits</li>
+        <li>Maggie</li>
+    </ul>
+
+    <!-- showing the feedback form thorugh the input box to printing inside the paragraph -->
+    <form class="feedback-form">
+        <label for="myInput">Please Provide your Feedback : </label>
+        <input type="text" class="myInput">
+        <button type="submit">Submit</button>
+        <p class="showFeedback"></p>
+    </form>
+    
+     <script defer src="./5DomMan.js"></script>
+</body>
+</html>

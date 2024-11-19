@@ -37,3 +37,23 @@ console.log('tesla has ', tesla.tyres);
 console.log("tesla has (logging through the Object.getPrototypeof)" , Object.getPrototypeOf(tesla) );
 
 tesla.hasownproperty('tyres');
+
+// Constructor function for Animal
+function Animal() {}
+
+// Adding a method to the Animal prototype
+Animal.prototype.speak = function () {
+    return 'Animal speaking';
+};
+
+// Constructor function for Dog
+function Dog() {}
+
+// Setting up prototype inheritance
+Dog.prototype = Object.create(Animal.prototype);
+Dog.prototype.constructor = Dog; // Restore the constructor reference
+
+// Adding a method specific to Dog
+Dog.prototype.bark = function () {
+    return 'Woof!';
+};

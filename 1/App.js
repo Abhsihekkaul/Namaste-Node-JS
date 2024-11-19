@@ -11,3 +11,12 @@ setTimeout(()=> {
 }, 2000)
 
 console.log(global);
+console.log(globalThis);
+console.log(this); // here is the problem using this it shows the empty bracket
+console.log(global === globalThis);
+
+function Abhi(){
+    console.log(this);
+}
+
+Abhi();
