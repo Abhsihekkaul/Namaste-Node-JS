@@ -1,0 +1,120 @@
+/* General reset for margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container for the shopping cart */
+.Shoping-cart {
+    background: #ffffff;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headers */
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #444;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Items container */
+.cart-items, .cart {
+    margin-bottom: 20px;
+}
+
+.items, .Selected-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Item-Name {
+    font-weight: bold;
+    font-size: 1rem;
+    flex: 1;
+}
+
+.Item-Price {
+    font-size: 0.9rem;
+    color: #666;
+    margin-right: 20px;
+}
+
+/* Buttons */
+button {
+    background: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+
+.Add-to-cart {
+    background: #007bff;
+}
+
+.Add-to-cart:hover {
+    background: #0056b3;
+}
+
+.Delete-from-cart {
+    background: #d9534f;
+}
+
+.Delete-from-cart:hover {
+    background: #c9302c;
+}
+
+.CheckOut-Button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 20px;
+    font-size: 1rem;
+    background: #f0ad4e;
+    text-transform: uppercase;
+}
+
+.CheckOut-Button:hover {
+    background: #ec971f;
+}
+
+/* Total amount styling */
+.total-amount {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: #000;
+}
