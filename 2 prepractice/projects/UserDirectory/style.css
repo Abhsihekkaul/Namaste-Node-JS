@@ -1,0 +1,45 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#userDirectory{
+    width: 80vw;
+    margin : 1rem .5rem;
+    background-color: purple;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 0 24px 21px rgba(0,0,0,0.3);
+}
+
+#userTable{
+    margin: 1rem 1rem;
+}
+
+#userTable img{
+    width: 40px;
+}
+
+#userTable th{
+text-align: left;
+}
+
+#filterUsers{
+    padding: .5rem 1rem ;
+    width: 40vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px 30px;
+}
+
+.TableItem{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+li{
+    padding: 10px 20px;
+}
